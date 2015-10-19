@@ -27,8 +27,7 @@
                 else{
                     print "Who are you?";
                 }
-                echo "Hi\n";
-                echo "Hi";
+                echo nl2br("Hi\nHi");
 
 
             ?>
