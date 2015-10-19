@@ -46,7 +46,7 @@
                     print "nothing";
                 }
                 */
-
+                /* Section 4 - SWITCH STATEMENTS
                 $numberOfHobbits=2;
                 switch ($numberOfHobbits){
                     case 1:
@@ -60,6 +60,22 @@
                         break;
                     default:
                         echo "all hobbits have gone home";
+                }
+                */
+                $wantedgood = 'mugs';
+                switch($wantedgood){
+                    case "sausage rolls":
+                        print "21 or over";
+                        break;
+                    case "mugs":
+                        print "18 or over";
+                        break;
+                    case "specs":
+                        print "16 or over";
+                        break;
+                    default:
+                        echo "you are not old enough for anything";
+
                 }
             ?>
         </p>
