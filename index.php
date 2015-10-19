@@ -32,14 +32,14 @@
                 $myage=19;
                 $myname="Jacob";
                 echo $myname . " you are allowed to buy ";
-                if($myage>16){
-                    print "specs";
+                if($myage>21){
+                    print "sausage rolls";
                 }
                 elseif($myage>18){
                     print "mugs";
                 }
-                elseif($myage>21){
-                    print "sausage rolls";
+                elseif($myage>16){
+                    print "specs";
                 }
                 else{
                     print "nothing";
