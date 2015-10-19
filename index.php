@@ -62,6 +62,7 @@
                         echo "all hobbits have gone home";
                 }
                 */
+                /* Section 5 - SWITCH STATEMENTS v2.0
                 $wantedgood = 'mugs';
                 switch($wantedgood){
                     case "sausage rolls":
@@ -75,8 +76,13 @@
                         break;
                     default:
                         echo "you are not old enough for anything";
-
                 }
+                */
+                $myArray = array("do","re","mi");
+                echo $myArray[0];
+                $myArray[1]="la";
+                echo $myArray[1];
+                unset($myArray[2]);
             ?>
         </p>
     </body>
