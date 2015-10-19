@@ -80,7 +80,7 @@
                 */
                 $myArray = array("do","re","mi");
                 echo $myArray[0];
-                $myArray[1]="la";
+                $myArray[1]="lo";
                 echo $myArray[1];
                 unset($myArray[2]);
             ?>
