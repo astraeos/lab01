@@ -19,7 +19,7 @@
                     LINE
                     COMMENT
                 */
-
+                /* Section 2
                 $name="Edgar";
                 if($name=="Simon"){
                     print "I know you!";
@@ -28,7 +28,22 @@
                     print "Who are you?";
                 }
                 echo nl2br("Hi\nHi");
-
+                */
+                $myage=19;
+                $myname="Jacob";
+                echo $myname . " you are allowed to buy ";
+                if($myage>16){
+                    print "specs";
+                }
+                elseif($myage>18){
+                    print "mugs";
+                }
+                elseif($myage>21){
+                    print "sausage rolls";
+                }
+                else{
+                    print "nothing";
+                }
 
             ?>
         </p>
