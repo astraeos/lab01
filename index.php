@@ -29,7 +29,7 @@
                 }
                 echo nl2br("Hi\nHi");
                 */
-                $myage=19;
+                $myage=15;
                 $myname="Jacob";
                 echo $myname . " you are allowed to buy ";
                 if($myage>21){
