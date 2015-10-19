@@ -78,11 +78,28 @@
                         echo "you are not old enough for anything";
                 }
                 */
+                /* Section 6 = ARRAY
                 $myArray = array("do","re","mi");
                 echo $myArray[0];
                 $myArray[1]="lo";
                 echo $myArray[1];
                 unset($myArray[2]);
+                */
+                $proAct = array("specs","mugs","sausage rolls");
+                $count=0;
+                foreach($proAct as $x){
+                    $count++;
+                    switch($x){
+                        case "specs":
+                            print $x;
+                            break;
+                        case "mugs":
+                            print "hugs";
+                            break;
+                        case "sausage rolls":
+                            unset($proAct[$count]);
+                    }
+                }
             ?>
         </p>
     </body>
