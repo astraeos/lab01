@@ -85,6 +85,7 @@
                 echo $myArray[1];
                 unset($myArray[2]);
                 */
+                /* EX3
                 $proAct = array("specs","mugs","sausage rolls");
                 $count=0;
                 foreach($proAct as $x){
@@ -99,6 +100,10 @@
                         case "sausage rolls":
                             unset($proAct[$count]);
                     }
+                }
+                */
+                for ($i = 1; $i < 10; $i++){
+                    echo "<p>Hello!</p>";
                 }
             ?>
         </p>
