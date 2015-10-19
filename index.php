@@ -7,6 +7,7 @@
     <body>
         <p>
             <?php
+                /* Section 1
                 echo "Hello, world";
                 echo "Hello, " . " " . "world" . "!";
                 echo 5 * 7;
@@ -18,6 +19,13 @@
                     LINE
                     COMMENT
                 */
+                $name="Edgar";
+                if($name=="Simon"){
+                    print "I know you!";
+                }
+                else{
+                    print "Who are you?";
+                }
             ?>
         </p>
     </body>
